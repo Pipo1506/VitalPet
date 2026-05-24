@@ -55,36 +55,54 @@ Abaixo estão as principais rotas disponíveis na API. Todas retornam respostas 
   
   Tutores (/api/Tutor)
 GET /api/Tutor - Retorna a lista de todos os tutores cadastrados.
+
 GET /api/Tutor/{id} - Retorna um tutor específico pelo ID.
+
 GET /api/Tutor/buscar-por-nome?nome={nome} - Filtra tutores pelo nome.
+
 POST /api/Tutor - Cadastra um novo tutor.
+
 PUT /api/Tutor/{id} - Atualiza os dados de um tutor existente.
+
 DELETE /api/Tutor/{id} - Remove um tutor do sistema.
 <img width="1420" height="391" alt="Captura de Tela 2026-05-23 às 15 41 39" src="https://github.com/user-attachments/assets/f6cedf53-c8a3-4b58-b217-39b7dd1f7de3" />
 
 
    Pets (/api/Pet)
 GET /api/Pet - Retorna a lista de todos os pets (incluindo os dados do tutor responsável).
+
 GET /api/Pet/{id} - Retorna um pet específico pelo ID.
+
 GET /api/Pet/buscar-por-especie?especie={especie} - Filtra pets por espécie (ex: Cachorro, Gato).
+
 POST /api/Pet - Cadastra um novo pet (requer o TutorId).
+
 PUT /api/Pet/{id} - Atualiza os dados de um pet.
+
 DELETE /api/Pet/{id} - Remove um pet do sistema.
 <img width="1427" height="383" alt="Captura de Tela 2026-05-23 às 15 41 37" src="https://github.com/user-attachments/assets/491854ac-710f-4e70-bdfa-9121d9f47bb6" />
 
  Veterinário (/api/Veterinario)
 GET /api/Veterinario - Retorna a lista de veterinários.
+
 GET /api/Veterinario/{id} - Retorna um veterinário pelo ID.
+
 POST /api/Veterinario - Cadastra um novo veterinário (pode incluir o ClinicaId).
+
 PUT /api/Veterinario/{id} - Atualiza os dados de um veterinário.
+
 DELETE /api/Veterinario/{id} - Remove um veterinário.
 <img width="1430" height="357" alt="Captura de Tela 2026-05-23 às 15 41 49" src="https://github.com/user-attachments/assets/184c876d-4718-4a3c-807f-78d7d6b3a52d" />
 
 
 Clínica (/api/Clinica)
 GET /api/Clinica - Retorna a lista de clínicas veterinárias.
+
 GET /api/Clinica/{id} - Retorna uma clínica pelo ID.
+
 POST /api/Clinica - Cadastra uma nova clínica.
+
 PUT /api/Clinica/{id} - Atualiza os dados de uma clínica.
+
 DELETE /api/Clinica/{id} - Remove uma clínica.
 <img width="1421" height="352" alt="Captura de Tela 2026-05-23 às 15 41 32" src="https://github.com/user-attachments/assets/7731d40b-9dcb-4a78-b065-8b9f9d826d6a" />
