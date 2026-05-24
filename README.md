@@ -31,7 +31,7 @@ Siga as instruções abaixo para clonar, configurar e rodar a API na sua máquin
 
  1. Clonar o Repositório
  bash
-git clone [https://github.com/SEU_USUARIO/VitalPet.git](https://github.com/SEU_USUARIO/VitalPet.git)
+git clone "https://github.com/Pipo1506/VitalPet.git"
 cd VitalPet/VitalPet.API
 2. Configurar o Banco de Dados (User Secrets)
 Por questões de segurança, a string de conexão real não está no arquivo appsettings.json. Configure o seu acesso localmente utilizando o Secret Manager do .NET:
